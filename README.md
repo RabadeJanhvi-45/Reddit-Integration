@@ -45,4 +45,8 @@ npm install
 4. Start the development server:
  ```bash
 npm run dev
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 793057475db7c2b540fbcfc2a15b2734eb819ac9
