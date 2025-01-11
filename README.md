@@ -32,16 +32,17 @@ This is a React-based application that fetches and displays popular posts from R
 ## Installation:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/RabadeJanhvi-45/Reddit-Integration.git
+   git clone https://github.com/your-username/popular-posts-viewer.git
 
 2. Navigate to the project directory:
  ```bash
  cd popular-posts-viewer
-
+```
 3. Install dependencies:
  ```bash
 npm install
-
+```
 4. Start the development server:
  ```bash
-npm start
+npm run dev
+```
