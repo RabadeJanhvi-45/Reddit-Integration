@@ -1,0 +1,113 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links button {
+    background: none;
+    border: none;
+    color: #4a5568;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .navbar-links button:hover {
+    color: #2b6cb0;
+  }
+  
+  .navbar-search {
+    flex-grow: 1;
+    max-width: 24rem;
+    margin: 0 1rem;
+  }
+  
+  .navbar-search input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    outline: none;
+    transition: box-shadow 0.2s;
+  }
+  
+  .navbar-search input:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navbar-actions button {
+    background-color: #e95a33;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .navbar-actions button:hover {
+    background-color: #dd6b20;
+  }
+  
+  .navbar-actions .icon {
+    color: #4a5568;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .navbar-actions .icon:hover {
+    color: #2b6cb0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-logo {
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-links {
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: flex-start;
+    }
+  
+    .navbar-search {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-actions {
+      justify-content: flex-start;
+    }
+  }
+  
