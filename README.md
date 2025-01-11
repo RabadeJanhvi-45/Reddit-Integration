@@ -16,6 +16,7 @@ This is a React-based application that fetches and displays popular posts from R
 - **CSS**: For styling and making the UI responsive.
 
 ## Screenshots:
+<img width="959" alt="reditimage" src="https://github.com/user-attachments/assets/562d6671-fec3-4d5e-bf5d-657f9e7347ad" />
 
 
 ## How It Works:
