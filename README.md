@@ -37,11 +37,12 @@ This is a React-based application that fetches and displays popular posts from R
 2. Navigate to the project directory:
  ```bash
  cd popular-posts-viewer
-
+```
 3. Install dependencies:
  ```bash
 npm install
-
+```
 4. Start the development server:
  ```bash
-npm start
+npm run dev
+```
